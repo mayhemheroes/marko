@@ -1,0 +1,6 @@
+project: marko
+target: marko_fuzz
+
+cmds:
+    - cmd: /marko/fuzz/marko_fuzz.py
+      libfuzzer: true
